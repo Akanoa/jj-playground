@@ -1,13 +1,15 @@
-//! Entry point of the program.
+//! Prints a farewell message to the standard output.
 //!
-//! The `main` function is the starting point of any Rust application.
-//! When the program is executed, this function is called.
-//! In this example, it prints "Hello, world!" to the console.
+//! This `goodbye` function is used to print the message "Good bye" to the console.
+//! It can be invoked when you want to display a goodbye message to the user.
 //!
 //! # Example
+//!
 //! ```
-//! $ cargo run
-//! Hello, world!
+//! // This will print "Good bye" to the console.
+//! fn goodbye() {
+//!     println!("Good bye");
+//! }
 //! ```
 /// The entry point of the Rust program.
 ///
@@ -28,6 +30,12 @@ fn main() {
 }
 
 
+/// Prints a goodbye message to the console.
+///
+/// # Example
+/// ```
+/// goodbye(); // Prints "Good bye" to the console.
+/// ```
 fn goodbye() {
     println!("Good bye")
 }
