@@ -5,7 +5,7 @@
 /// goodbye(); // Prints "Good bye" to the console.
 /// ```
 pub fn goodbye(data: &str) {
-    println!("Good bye {data}!");
+    println!("Good bye {data}!!!");
 }
 
 #[test]
