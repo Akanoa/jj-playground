@@ -34,5 +34,5 @@ mod goodbye;
 fn main() {
     println!("Hello, world!");
     farewell::farewell();
-    goodbye::goodbye();
+    goodbye::goodbye("Noa")
 }

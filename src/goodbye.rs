@@ -4,8 +4,8 @@
 /// ```
 /// goodbye(); // Prints "Good bye" to the console.
 /// ```
-pub fn goodbye() {
-    println!("Good bye")
+pub fn goodbye(data: &str) {
+    println!("Good bye {data}!");
 }
 
 #[test]
