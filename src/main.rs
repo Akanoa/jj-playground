@@ -1,3 +1,4 @@
+
 //! Prints a farewell message to the standard output.
 //!
 //! This `goodbye` function is used to print the message "Good bye" to the console.
@@ -14,6 +15,10 @@
 
 mod farewell;
 
+
+mod goodbye;
+
+
 /// The entry point of the Rust program.
 ///
 /// This `main` function serves as the starting point for the execution of the program.
@@ -29,23 +34,6 @@ mod farewell;
 /// ```
 fn main() {
     println!("Hello, world!");
-    goodbye();
-    farewell::farewell()
-}
-
-
-/// Prints a goodbye message to the console.
-///
-/// # Example
-/// ```
-/// goodbye(); // Prints "Good bye" to the console.
-/// ```
-fn goodbye() {
-    println!("Good bye")
-}
-
-
-#[test]
-fn test_goodbye_with_print() {
-    assert!(true)
+    farewell::farewell();
+    goodbye::goodbye();
 }
