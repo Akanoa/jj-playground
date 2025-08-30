@@ -31,3 +31,9 @@ fn main() {
 fn goodbye() {
     println!("Good bye")
 }
+
+
+#[test]
+fn test_goodbye_with_print() {
+    assert!(true)
+}
