@@ -11,6 +11,9 @@
 //!     println!("Good bye");
 //! }
 //! ```
+
+mod farewell;
+
 /// The entry point of the Rust program.
 ///
 /// This `main` function serves as the starting point for the execution of the program.
@@ -26,7 +29,8 @@
 /// ```
 fn main() {
     println!("Hello, world!");
-    goodbye()
+    goodbye();
+    farewell::farewell()
 }
 
 
